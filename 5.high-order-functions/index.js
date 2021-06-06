@@ -14,23 +14,28 @@ const values = [ 0, 2, "text", "Fortech", true, 4, 10, "fp", "vasile", 999 ];
 // Before we sum the salaries, lets give the HR department a raise, 20% each.
 const employees = [
     {
-      fullName: "Sandra",
-      department: "Development",
-      salary: 8000,
+        fullName: "Loredan Lasca",
+        department: "Development",
+        salary: 8000,
     },
     {
-      fullName: "Rodica",
-      department: "HR",
-      salary: 5000,
+        fullName: "Razvan Niculescu",
+        department: "HR",
+        salary: 3000,
     },
     {
-      fullName: "Alexandra",
-      department: "HR",
-      salary: 3000,
+        fullName: "Marian Olaru",
+        department: "HR",
+        salary: 3000,
     },
     {
-      fullName: "Horea",
-      department: "IT Support",
-      salary: 3000,
+        fullName: "George Balota",
+        department: "IT Support",
+        salary: 7000,
+    },
+    {
+        fullName: "Dorin Ciora",
+        department: "HR",
+        salary: 2000,
     },
   ];

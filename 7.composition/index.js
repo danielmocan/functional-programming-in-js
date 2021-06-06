@@ -16,6 +16,5 @@ const doubleIncrementAndSquare = compose( square, increment, double );
 /* Exercises */
 // 1. Its easier for us to undestand if the argumets would be applied from left to right, here comes `pipe` to the rescue.
 // Please create a pipe function that applies the params received from left to right.
-
-const pipe = ( ...functions ) => x => functions.reduce( ( accumulator, current ) => current( accumulator ), x );
+// usage
 const doubleIncrementAndSquare = pipe( double, increment, square );

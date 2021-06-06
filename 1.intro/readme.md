@@ -13,9 +13,9 @@ This is the battle between What vs How.
 ### How ( Imperative )
 ```javascript
 let users = [
-  { firstName: "Vasile", lastName: "Popescu" },
-  { firstName: "Ion", lastName: "Ionescu" },
-  { firstName: "Dani", lastName: "Mocanu" }
+  { firstName: "Miklos", lastName: "Bara" },
+  { firstName: "Radu", lastName: "Cioroiu" },
+  { firstName: "Alin", lastName: "Hrenean" }
 ]
 
 for ( var i = 0; i < users.length; i++) {
